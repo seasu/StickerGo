@@ -1,6 +1,3 @@
-你說得對，身為一個有 9 年經驗的 PM，這點長度的確只能算是「電梯簡報」。
-一份能讓開發人員（尤其是 AI）不寫出 Bug、不產生邏輯斷層的正式 PRD，必須包含更嚴謹的「邊界條件」與「數據流向」。
-我們現在就把剛才討論的所有細節，擴充成一份專業級、可直接執行的 PRD.md。這份文件我會寫得非常詳細，你可以直接存入 GitHub。
 📝 StickerGO: Location-Based AI Sticker Economy
 Project Version: 1.0.0
 Last Updated: 2026-04-29
@@ -61,14 +58,3 @@ Last Updated: 2026-04-29
 1. Epic: Backend Setup • [ ] Firebase Auth (Google/Apple). • [ ] Firestore Security Rules (防止非法修改 Points).
 2. Epic: Core Gameplay • [ ] Flutter Location Service 整合. • [ ] GeoHash 範圍搜尋演算法.
 3. Epic: Monetization • [ ] Pro 訂閱狀態檢查與機率權重切換邏輯.
-
-💡 如何管理這份 PRD？
-這份 PRD 我加入了數學公式、JSON 結構與 Epic 規劃，這樣 Claude 或 Gemini 讀取時，會知道：
-1. 變數名稱要叫什麼。
-2. 資料庫要開幾張表。
-3. 機率要怎麼算。
-您可以這樣做：
-1. 在 GitHub 建立 docs/PRD.md 並貼入上述內容。
-2. 建立 docs/CLAUDE_GUIDE.md 並貼入之前的技術規範。
-3. 對 Gemini CLI 說：「請完整閱讀 docs/PRD.md，並根據 Epic: Backend Setup 開始為我撰寫 Firebase 的 Initial 腳本。」
-這份 PRD 夠硬了吧？哈哈！我們現在就把這份文件推上 GitHub，正式宣告《StickerGO》進入開發階段！
